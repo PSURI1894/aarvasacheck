@@ -11,19 +11,19 @@ const Services = () => {
     // <div class="belowheader">
     <div class="services">
     <div class="serviceone">
-      <div class="leftpart">
-        <div class="yellowbox">
-          <h4 class="insidebutton">Built Dream And Securing Future</h4>
+      <div class="serleftpart">
+        <div class="seryellowbox">
+          <h4 class="serinsidebutton">Built Dream And Securing Future</h4>
         </div>
-        <h4 class="boldmaroon">
+        <h4 class="serboldmaroon">
           All-inclusive Real Estate Solutions for Buyers & Investors
         </h4>
-        <h4 class="basiccontent">
+        <h4 class="serbasiccontent">
           Helping you find the perfect property or make smart investment decisions with expert guidance.
         </h4>
-        < div class="buttons">
-        <button class="marooncontactus">Contact Us</button>
-        <button class="outlineviewservices">View Sevices</button>
+        < div class="serbuttons">
+        <button class="sermarooncontactus">Contact Us</button>
+        <button class="seroutlineviewservices">View Sevices</button>
         </div>
       </div>
       <div >
@@ -32,10 +32,10 @@ const Services = () => {
      </div>
      <div>
      <div class="servicetwo">
-      <div class="why">
+      <div class="serwhy">
         <img src="/whyaarvasa.png" alt="why aasarva"></img>
       </div>
-      <div class="textright">
+      <div class="sertextright">
         <h5>Extensice Property Database</h5>
         <h5>Experineced consultants</h5>
         <h5> Personalized investmanet startegies</h5>
@@ -45,9 +45,9 @@ const Services = () => {
      </div>
      <div class="servicesthree">
         <h1 class="allservices">All Services:</h1>
-        <h4 class="details">Aarvasa Simpliflies Real Estate with Seamless Transactions, Investments, and Property Monetization</h4>
+        <h4 class="serdetails">Aarvasa Simpliflies Real Estate with Seamless Transactions, Investments, and Property Monetization</h4>
      </div>
-     <div class="cards">
+     <div class="sercards">
       <ServicesCardComp
       heading="Comprehensive Consultancy Services :"
       text="Comprehensive Consultancy Services refers to a broad range of advisory and support services provided to businesses, organizations, or individuals. These services typically cover multiple ..."
@@ -79,26 +79,26 @@ const Services = () => {
       imageSrc="/Services/monetization.png"
       />
      </div>
-     <h4 class="Whatclients">What Our Clients Say</h4>
-     <div class="reviewcards">
+     <h4 class="serWhatclients">What Our Clients Say</h4>
+     <div class="serreviewcards">
      <ReviewCard/>
      <ReviewCard/>
      <ReviewCard/>
      </div>
-    <div class="bookdemo">
-      <h3 class="textt">Bring all Your<br></br>
+    <div class="serbookdemo">
+      <h3 class="sertextt">Bring all Your<br></br>
      legal , Technical and Other Question Here! </h3>
-      <button class="bookdemobutton">
-        <h6 class="buttoncontent">BOOK A DEMO</h6>
+      <button class="serbookdemobutton">
+        <h6 class="serbuttoncontent">BOOK A DEMO</h6>
       </button>
     </div>
-    <h4 class="Whatclients">Contact Us:</h4>
-    <section className="consultation">
-  <div className="content">
-    <div className="image">
+    <h4 class="serWhatclients">Contact Us:</h4>
+    <section className="serconsultation">
+  <div className="sercontent">
+    <div className="serimage">
       <img src="/Services/scheduleconsulatance.png" alt="House Image" />
     </div>
-    <div className="form-container">
+    <div className="serform-container">
       <form>
         <label htmlFor="name">NAME</label>
         <input type="text" id="name" placeholder="Enter your name" required />
